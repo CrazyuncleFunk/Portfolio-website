@@ -29,6 +29,10 @@ font-family: 'Average Sans', sans-serif;
 .one p{
   font-size: 3vh;
 }
+.two{
+  text-align:center;
+  font-size: 32px;
+}
 #profile-link{
   text-decoration:none;
   color:black;
