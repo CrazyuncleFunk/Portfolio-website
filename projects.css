@@ -26,9 +26,14 @@ h1{
 #profile-link{
   text-decoration:none;
   color:black;
-  background-color:lightblue;
+  background-color:#18a611;
   padding:10px;
+  margin-bottom: 50px;
+
 }
+#profile-link:hover{
+  background-color:white;
+    }
 .table{
   display:table;
   margin: auto;
@@ -42,7 +47,16 @@ h1{
   height:25vh;
 
 }
+@media screen (min-width:700px){
+  .project-image{
+    display:flex;
+    height:30vh;
+    align-items:center;
+    justify-content:center;
 
+    width:25vw;
+  }
+}
 .project-image{
   display:flex;
   height:20vh;
@@ -85,4 +99,27 @@ li{
 }
 .bar:hover{
   color:white;
+}
+#email{
+
+  margin-bottom: 50px;
+}
+#first{
+  margin-top: 100px;
+  font-size: 1.5em;
+}
+#container{
+  background-color: yellow;
+  width:50vw;
+  height:82vh;
+  margin: auto;
+  margin-top:8vh;
+  display:flex;
+}
+#inner-container{
+
+  margin:auto;
+}
+#contact{
+  font-size: 3em;
 }
