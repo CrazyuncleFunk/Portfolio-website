@@ -1,72 +1,13 @@
-
 @import url('https://fonts.googleapis.com/css?family=Average+Sans&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 body{
+  background-color: yellow;
+  height:70vh;
+  width:100vw;
+  text-align: center;
+  font-family: 'Average Sans', sans-serif;
   margin:0;
-font-family: 'Average Sans', sans-serif;
-}
-.page{
-  height:100vh;
-  width:100vw:
-}
-.inner-container{
-  display:flex;
-  flex-direction: row;
-  width:300vw;
-  transform: rotate(90deg) translateY(-100vh) ;
-  transform-origin: top left;
 
-}
-.one{
-  background-color: yellow;
-  flex:1;
-  text-align:center;
-  justify-content: center;
-}
-.one h1{
-  font-size: 10vh;
-  margin-top: 30vh;
-}
-.one p{
-  font-size: 3vh;
-}
-.two{
-  text-align:center;
-  font-size: 32px;
-}
-#profile-link{
-  text-decoration:none;
-  color:black;
-  background-color:#18a611;
-  padding:0.75vw;
-  font-size:1.5vh
-}
-#profile-link:hover{
-  background-color:white;
-}
-.two{
-flex:1;
-    background-color: #18a611;
-}
-.three{
-  flex:1;
-  background-color: yellow;
-  display:flex;
-}
-
-.outer-container{
-  width:100vh;
-  height:100vw;
-  transform: rotate(-90deg) translateX(-100vh) ;
-  transform-origin: top left;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  position: absolute;
-  scrollbar-width: none;
- -ms-overflow-style: none;
-
-}
-::-webkit-scrollbar {
-  display:none;
 }
 #float-bar{
   text-decoration: none;
@@ -80,7 +21,7 @@ flex:1;
 #float-bar:hover{
   color:white;
 }
-a{
+.bar{
   text-decoration: none;
   color:black;
 }
@@ -90,10 +31,27 @@ ul{
   margin-right:35px;
 }
 li{
-
+  font-size:2em;
   padding: 10px;
   list-style: none;
 }
-a:hover{
+.bar:hover{
   color:grey;
+}
+h1{
+  font-size: 10vh;
+  margin-top:30vh;
+}
+p{
+  font-size: 3vh;
+}
+#profile-link{
+  text-decoration:none;
+  color:black;
+  background-color:#18a611;
+  padding:0.75vw;
+  font-size:1.5vh
+}
+#profile-link:hover{
+  background-color:white;
 }
